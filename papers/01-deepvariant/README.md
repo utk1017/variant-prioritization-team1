@@ -10,7 +10,9 @@ Deep CNN that calls SNPs and small indels from aligned NGS reads (BAM → VCF).
 _TBD_ — official Docker image, runs on CPU with the quick-start example data.
 
 ## Output
-_TBD — add the VCF / results here._
+Generated output files:
+- output.vcf.gz
+- output.vcf.gz.tbi
 
 ## Status
-🔲 Not started
+☑ Completed

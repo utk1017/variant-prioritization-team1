@@ -30,5 +30,5 @@ Needs a GPU-backed environment (Colab free tier works, T4).
 * `ImportError: cannot import name 'sentinel' from 'typing_extensions'` — caused by an outdated `typing_extensions` preinstalled in the Colab image conflicting with `anndata`. Fixed with `pip install --upgrade typing_extensions` before the rest of the install, followed by a full runtime restart.
 * Reduced Stage 2 `max_epochs` from the tutorial default (30000) to a lower value to manage total runtime — verified via `mod.plot_history()` that the ELBO loss had plateaued before treating the result as converged.
 
-Status
+**Status -**
 🟡 Stage 1 (reference signatures) and Stage 2 (spatial mapping) both run successfully; core spatial abundance figures generated. Notebook uploaded through the visualization step.
